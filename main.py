@@ -99,5 +99,7 @@ if __name__ == "__main__":
     main()
 
 
+
+# 相关命令 后续执行可简化指令
 #  D:/python3.10/python.exe main.py
 #  D:/python3.10/python.exe -m streamlit run web_app.py
