@@ -1,0 +1,20 @@
+multimodal-fake-news-detector/
+├── 01_simple_scraper.py          ✅ Wikipedia爬虫
+├── 02_improved_scraper.py        ✅ 改进爬虫
+├── 03_reddit_scraper.py          ✅ Reddit爬虫
+├── 04_load_reddit_data.py        ✅ 数据加载
+├── 05_data_preprocessing.py      ✅ 数据清洗
+├── 06_prepare_for_model.py       ✅ 数据准备
+├── 07_multimodal_model.py        ✅ 基础模型
+├── 08_model_evaluation.py        ✅ 模型评估
+├── 09_advanced_multimodal_model.py  ✅ 改进模型
+│
+├── reddit_data/                  📂 原始爬虫数据
+├── processed_data/               📂 清洗后的数据
+├── model_data/                   📂 训练数据和模型
+│   ├── best_model.pth
+│   ├── advanced_best_model.pth
+│   ├── training_history.json
+│   └── evaluation_results.json
+│
+└── venv/                         📂 虚拟环境
