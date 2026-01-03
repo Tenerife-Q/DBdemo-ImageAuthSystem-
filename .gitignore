@@ -1,36 +1,25 @@
-# 虚拟环境
+# 忽略 Python 虚拟环境
 venv/
 .venv/
-ENV/
-env/
 
-# Python缓存
+# 忽略所有编译缓存
 __pycache__/
 *.py[cod]
-*$py. class
-*.so
-.Python
 
-# IDE
+# 忽略数据文件 (根目录和子目录的都忽略)
+*.csv
+*.json
+*.log
+
+# 忽略大模型文件
+*.pth
+*.pkl
+model_data/
+
+# 忽略 VS Code 配置
 .vscode/
-.idea/
-*.swp
-*.swo
 
-# 系统文件
-.DS_Store
-Thumbs.db
-
-# 数据文件（太大）
-reddit_data/
+# 忽略数据文件夹
 downloaded_data/
 downloaded_data_v2/
 processed_data/
-model_data/*. pth
-model_data/*.npy
-model_data/*.csv
-
-# 临时文件
-*.tmp
-*. log
-. pytest_cache/
